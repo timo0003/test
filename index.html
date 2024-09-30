@@ -1,17 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" 
-          content="width=device-width, initial-scale=1.0">
-    <title>HTML</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Dépôt Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 4px;
+            border-radius: 4px;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
-
 <body>
-    <!--Contents of the webpage-->
-    <p>GeeksforGeeks is a online study platform</p>
-</body>
 
+<header>
+    <h1>Page de Test pour un Dépôt Git</h1>
+</header>
+
+<section>
+    <h2>Introduction à Git</h2>
+    <p>Git est un système de gestion de versions distribué utilisé principalement pour le suivi des modifications dans le code source lors du développement logiciel.</p>
+
+    <h2>Les Commandes de Base de Git</h2>
+    <ul>
+        <li><code>git init</code> : Initialise un nouveau dépôt Git dans le répertoire courant.</li>
+        <li><code>git clone &lt;url&gt;</code> : Clone un dépôt distant dans un nouveau répertoire.</li>
+        <li><code>git add &lt;fichier&gt;</code> : Ajoute les modifications du fichier spécifié à l'index (stage).</li>
+        <li><code>git commit -m "message"</code> : Enregistre les modifications mises en scène dans l'historique du dépôt avec un message descriptif.</li>
+        <li><code>git push</code> : Envoie les modifications locales vers le dépôt distant.</li>
+        <li><code>git pull</code> : Récupère les modifications du dépôt distant et les fusionne avec les fichiers locaux.</li>
+    </ul>
+
+    <h2>Étapes pour Configurer un Dépôt Git</h2>
+    <ol>
+        <li>Créer un répertoire de projet.</li>
+        <li>Initialiser le dépôt avec <code>git init</code>.</li>
+        <li>Ajouter des fichiers avec <code>git add</code>.</li>
+        <li>Enregistrer les changements avec <code>git commit</code>.</li>
+        <li>Associer un dépôt distant avec <code>git remote add origin &lt;url&gt;</code>.</li>
+        <li>Pousser les changements avec <code>git push -u origin master</code>.</li>
+    </ol>
+
+    <h2>Ressources Utiles</h2>
+    <p>Voici quelques ressources pour en savoir plus sur Git :</p>
+    <ul>
+        <li><a href="https://git-scm.com/" target="_blank">Site officiel de Git</a></li>
+        <li><a href="https://guides.github.com/" target="_blank">Guides GitHub</a></li>
+        <li><a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a> (exercice interactif)</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Page de test Git - Créée pour démonstration</p>
+</footer>
+
+</body>
 </html>
